@@ -1,0 +1,15 @@
+{
+  "name": "jelly",
+  "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "http://stash.corp.web:7990/scm/front/test-all-in-one.git"
+    },
+    "author": {
+        "name": "Jamie Smylnycky",
+        "email": "jamie.smylnycky@contractor.cengage.com"
+    },
+  "dependencies": {
+    
+  }
+}

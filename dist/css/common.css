@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?-oy90mm');
+  src: url('../fonts/icomoon.eot?#iefix-oy90mm') format('embedded-opentype'), url('../fonts/icomoon.woff?-oy90mm') format('woff'), url('../fonts/icomoon.ttf?-oy90mm') format('truetype'), url('../fonts/icomoon.svg?-oy90mm#cengage') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-block:before {
+  content: "\e600";
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-light {
+  font-weight: 100;
+}
+h1 {
+  font-size: 46px;
+}
+h2 {
+  font-size: 35px;
+}
+.background-trans {
+  -webkit-transition: background-color 150ms ease-out 150ms;
+  -moz-transition: background-color 150ms ease-out 150ms;
+  -o-transition: background-color 150ms ease-out 150ms;
+  transition: background-color 150ms ease-out 150ms;
+}
+.ease-in-out {
+  -o-transition: 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.transform-scale {
+  -ms-transform: scale(1.9, 2.3);
+  -webkit-transform: scale(1.9, 2.3);
+  transform: scale(1.9, 2.3);
+}
+.transform-width {
+  -webkit-transition: width 400ms ease-in-out;
+  -moz-transition: width 400ms ease-in-out;
+  -ms-transition: width 400ms ease-in-out;
+  -o-transition: width 400ms ease-in-out;
+  transition: width 400ms ease-in-out;
+}
+.alert {
+  position: relative;
+  top: 80px;
+  background: #f9f9f9;
+  border: 1px solid #41807b;
+  color: #386f6b;
+  border-radius: 0;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.alert.alert-danger {
+  background: #f9f9f9;
+  border: 1px solid #b52b27;
+  color: #b52b27;
+}
+.alert.alert-info {
+  background: #f9f9f9;
+  border: 1px solid #1d4356;
+  color: #1d4356;
+}
+.alert.alert-warning {
+  background: #f9f9f9;
+  border: 1px solid #df8a13;
+  color: #df8a13;
+}
+.alert .btn {
+  float: right;
+  margin-top: -6px;
+}
+.text-success {
+  color: #6FA77C;
+}
+.text-info {
+  color: #31708F;
+}
+.text-warning {
+  color: #E7A968;
+}
+.text-danger {
+  color: #E2665B;
+}
+.header {
+  font-weight: 100;
+  font-family: 'Pontano Sans', sans-serif;
+  color: #263645;
+}
+.pointer {
+  cursor: pointer;
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-image: none;
+  background-color: #52a29b;
+  color: #fff;
+}
+.eit-card {
+  background: #f9f9f9;
+  padding: 15px 20px;
+  margin: 5px 0;
+}
+.login-form {
+  margin: 200px auto 0 auto;
+  padding: 60px 20px 50px 20px;
+  float: none;
+}
+.login-form .login-logo {
+  background: #ffffff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: -110px auto 0 40%;
+  position: absolute;
+}
+.login-form .login-logo img,
+.login-form .login-logo .fa {
+  padding: 15px;
+  height: 100px;
+  width: 100px;
+  font-size: 5em;
+}
