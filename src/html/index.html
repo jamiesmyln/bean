@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>New Project</title>
+    <title>Bean</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../../src/css/material-fullpalette.min.css">
@@ -33,18 +33,54 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">New Project</a>
+          <a class="navbar-brand" href="#">Bean</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#Login">Login</a></li>
+            <li><a href="#Jellybean">Jellybean</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
     <div class="container">
-      
+      <div class="page-body">
+        <div class="stat-bar col-sm-12">
+          <div class="health col-sm-4">
+            <h3>Health</h3>
+            <div class="progress">
+              <div class="progress-bar progress-bar-info" style="width: 20%"></div>
+            </div>
+          </div>
+          <div class="happiness col-sm-4">
+            <h3>Happiness</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-info" style="width: 20%"></div>
+            </div>
+          </div>
+          <div class="hunger col-sm-4">
+            <h3>Hunger</h3>
+            <div class="progress">
+                <div id="hunger" class="progress-bar progress-bar-info" style="width: 0%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="pet col-sm-12">
+          <img src="../../src/img/bean.png" alt="chuuuuu" class="img-responsive">
+        </div>
+        <div class="actions col-sm-12">
+          <div class="btn-row">
+            <button class="btn btn-primary btn-raised" type="submit" onclick="feed()"><i class="fa fa-cutlery"></i> Food</button>
+            <button class="btn btn-primary btn-raised" type="submit"><i class="fa fa-gamepad"></i> Play</button>
+            <button class="btn btn-primary btn-raised" type="submit"><i class="fa fa-medkit"></i> Medicine</button>
+          </div>
+          <div class="btn-row">
+            <button class="btn btn-default btn-raised" type="submit" onclick="hungry()"><i class="fa fa-undo"></i> Hungry</button>
+            <button class="btn btn-default btn-raised" type="submit"><i class="fa fa-frown-o"></i> Bored</button>
+            <button class="btn btn-default btn-raised" type="submit"><i class="fa fa-ambulance"></i> Sick</button>
+          </div>
+        </div>
+      </div>
 
     </div><!-- /.container -->
 
@@ -52,7 +88,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="../../src/js/material.min.js"></script>
     <script src="../../src/js/ripples.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../../src/js/pet.js"></script>
   </body>
 </html>
